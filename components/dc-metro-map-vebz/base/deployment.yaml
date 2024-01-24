@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: dc-metro-map-vebz
     spec:
       containers:
-      - image: nodejs-image:latest
+      - image: quay.io/qijing/ex-registry-oqmp-tenant/appstudio/dc-metro-map-vebz@sha256:4f85f4f2d9cfd523b5ed8902154d2fda445ab736dbcd129a9c85be049527e99a
         name: my-nodejs
         ports:
         - containerPort: 3001
